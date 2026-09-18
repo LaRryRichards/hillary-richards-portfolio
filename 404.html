@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Page Not Found | Hillary Richards</title>
+<meta name="robots" content="noindex">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' fill='%23050505'/%3E%3Ctext x='32' y='42' font-family='monospace' font-size='24' fill='%23E10600' text-anchor='middle'%3EHR%3C/text%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@600;700&family=Inter:wght@400;500&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --bg:#050505; --red:#E10600; --white:#F5F5F5; --muted:#A0A0A0; --border:rgba(245,245,245,0.09);
+    --font-display:'Space Grotesk',system-ui,sans-serif; --font-body:'Inter',system-ui,sans-serif; --font-mono:'JetBrains Mono',ui-monospace,monospace;
+  }
+  *{ box-sizing:border-box; margin:0; padding:0; }
+  html,body{ height:100%; }
+  body{
+    background:var(--bg); color:var(--white); font-family:var(--font-body);
+    display:flex; align-items:center; justify-content:center; text-align:center;
+    padding:24px; position:relative; overflow:hidden;
+  }
+  .bg{
+    position:absolute; inset:0; z-index:0;
+    background-image:linear-gradient(var(--border) 1px, transparent 1px), linear-gradient(90deg, var(--border) 1px, transparent 1px);
+    background-size:56px 56px;
+    mask-image:radial-gradient(ellipse 70% 60% at 50% 45%, black 30%, transparent 85%);
+  }
+  .content{ position:relative; z-index:1; max-width:480px; }
+  .code{
+    font-family:var(--font-mono); font-size:13px; letter-spacing:0.14em; text-transform:uppercase;
+    color:var(--red); margin-bottom:20px; display:flex; align-items:center; justify-content:center; gap:10px;
+  }
+  .code::before, .code::after{ content:''; width:22px; height:1px; background:var(--red); }
+  h1{ font-family:var(--font-display); font-weight:700; font-size:clamp(48px,10vw,96px); line-height:1; }
+  h1 span{ color:var(--red); }
+  p{ color:var(--muted); margin-top:20px; font-size:16px; }
+  .btn{
+    display:inline-flex; margin-top:36px; padding:15px 28px;
+    font-family:var(--font-mono); font-size:13px; letter-spacing:0.06em; text-transform:uppercase;
+    background:var(--red); color:var(--white); text-decoration:none; border-radius:2px;
+    transition:transform .2s ease, background .2s ease;
+  }
+  .btn:hover{ background:#c00500; transform:translateY(-2px); }
+</style>
+</head>
+<body>
+  <div class="bg" aria-hidden="true"></div>
+  <div class="content">
+    <p class="code">404 / Page Not Found</p>
+    <h1>Wrong <span>URL.</span></h1>
+    <p>The page you're looking for doesn't exist or has moved. Let's get you back to something real.</p>
+    <a class="btn" href="/">Back To Home →</a>
+  </div>
+</body>
+</html>
