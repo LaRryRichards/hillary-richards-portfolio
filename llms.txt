@@ -1,8 +1,8 @@
 # Hillary Richards
 
-> Portfolio of Hillary Richards, a Kenyan web and app developer offering web development, app development, device screen repair and creative digital experiences.
+> Portfolio of Hillary Richards, a Kenyan web and app developer, graphics designer and director/streamer offering web development, app development, graphics design, video directing, livestreaming and device screen repair.
 
-Hillary Richards is a 23-year-old web developer, app developer and creative technologist based in Kenya, who also offers device screen repair. This site is a single-page portfolio covering background, selected projects and contact details.
+Hillary Richards is a 23-year-old web developer, app developer, graphics designer and director/streamer based in Kenya, who also offers device screen repair. This site is a single-page portfolio covering background, selected projects and contact details.
 
 ## Sections
 
